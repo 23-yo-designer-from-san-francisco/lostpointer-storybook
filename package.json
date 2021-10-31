@@ -1,0 +1,32 @@
+{
+  "name": "lostpointer-storybook",
+  "version": "1.0.0",
+  "description": "LostPointer Music UIKit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/23-yo-designer-from-san-francisco/lostpointer-storybook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/23-yo-designer-from-san-francisco/lostpointer-storybook/issues"
+  },
+  "homepage": "https://github.com/23-yo-designer-from-san-francisco/lostpointer-storybook#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@storybook/addon-actions": "^6.3.12",
+    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/addon-links": "^6.3.12",
+    "@storybook/builder-webpack5": "^6.3.12",
+    "@storybook/html": "^6.3.12",
+    "@storybook/manager-webpack5": "^6.3.12",
+    "babel-loader": "^8.2.3"
+  },
+  "dependencies": {}
+}
