@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "./dist/",
+    "noImplicitAny": false, // !true
+    "target": "esnext",
+    "allowJs": true,
+    "allowSyntheticDefaultImports" : true,
+    "esModuleInterop" : true,
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["src/*"],
+    }
+  },
+
+  "include": [
+    "./src/types/global.d.ts",
+    "./src/**/*"
+  ]
+}
