@@ -7,6 +7,7 @@ export interface IButtonComponentProps {
     mode: 'primary' | 'secondary';
     size: 'regular' | 'big';
     label: string;
+    color: 'gray';
 }
 
 export class ButtonComponent extends Component<IButtonComponentProps> {
@@ -14,7 +15,7 @@ export class ButtonComponent extends Component<IButtonComponentProps> {
 
     constructor(props) {
         super(props);
-        this.classList = {label: props.label, mode: `button__${this.props.mode}`};
+        this.classList = {label: props.label, mode: `button__${this.props.mode}__${this.props.color}`};
     }
 
     render(): string {
@@ -24,5 +25,6 @@ export class ButtonComponent extends Component<IButtonComponentProps> {
     label: string;
     mode: "primary" | "secondary";
     size: "regular" | "big";
+    color: 'gray';
 }
 

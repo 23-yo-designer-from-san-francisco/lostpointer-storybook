@@ -1,16 +1,36 @@
+:root {
+  --buttonBorderRadius: 20px;
+  --secondaryButtonBackgroundColor: #383838;
+  --buttonFontWeight: 400;
+  --font: 'Montserrat';
+  --secondaryButtonFontWeight: 400;
+  --gray: #383838;
+}
+
 .button {
-  display: inline-block;
+  display: flex;
   margin: auto;
   width: fit-content;
-  font-weight: 400;
+  font-weight: var(--buttonFontWeight);
+  border: 0;
+  border-radius: var(--buttonBorderRadius);
+
+  &__color {
+    &__gray {
+      background-color: var(--gray);
+    }
+  }
 
   &__secondary {
-    margin: auto 20px 15px;
-    background-color: #383838;
+    background-color: var(--secondaryButtonBackgroundColor);
     width: auto;
     height: 10%;
-    border-radius: 20px;
+    border-radius: var(--buttonBorderRadius);
     display: flex;
     cursor: pointer;
+    border: 0;
+    color: white;
+    font-family: var(--font);
+    font-weight: var(--secondaryButtonFontWeight);
   }
 }

@@ -18,6 +18,13 @@ export default {
                 'regular',
                 'big'
             ]
+        },
+        color: {
+            control: {type: 'radio'},
+            options: [
+                'gray'
+            ],
+            defaultValue: 'gray'
         }
     },
 } as Meta;
