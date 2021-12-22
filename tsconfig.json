@@ -11,11 +11,13 @@
     "baseUrl": ".",
     "paths": {
       "src/*": ["src/*"],
+      "components/*" : ["src/components/*"],
+      "forms/*": ["src/forms/*"]
     }
   },
 
   "include": [
-    "./src/types/global.d.ts",
+    "./types/global.d.ts",
     "./src/**/*"
   ]
 }

@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "build": "webpack --mode=development"
   },
   "repository": {
     "type": "git",
@@ -28,8 +29,12 @@
     "@storybook/html": "^6.3.12",
     "@storybook/manager-webpack5": "^6.3.12",
     "@storybook/preset-scss": "^1.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.8.0",
     "babel-loader": "^8.2.3",
     "clean-webpack-plugin": "^4.0.0",
+    "eslint": "^8.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "handlebars-loader": "^1.7.1",
     "mini-css-extract-plugin": "^2.4.4",
     "sass": "^1.43.4",

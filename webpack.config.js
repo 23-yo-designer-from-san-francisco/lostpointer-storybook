@@ -17,6 +17,10 @@ module.exports = {
         libraryTarget: 'umd',
     },
     resolve: {
+        alias: {
+            components: path.join(src, 'components'),
+            forms: path.join(src, 'forms'),
+        },
         extensions: ['.js', '.ts'],
     },
     module: {
