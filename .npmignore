@@ -11,3 +11,5 @@ webpack.config.js
 .stylelintrс
 .eslintrc.js
 .nvmrc
+storybook-static/
+tokens/
