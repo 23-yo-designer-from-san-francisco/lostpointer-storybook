@@ -1,10 +1,9 @@
 import { Component } from 'components/Component/component';
-
 import { IAlbum } from 'types/IAlbum';
+import { TopAlbum } from 'components/TopAlbum/topalbum';
 
 import TopAlbumsTemplate from './topalbums.hbs';
-import { Album } from 'components/Album/album';
-import { TopAlbum } from 'components/TopAlbum/topalbum';
+import './topalbums.scss';
 
 interface ITopAlbumsProps<TAlbum> {
     albums: Array<TAlbum>;
@@ -19,6 +18,7 @@ export class TopAlbums<TAlbum extends IAlbum = IAlbum> extends Component<
 
     constructor(props) {
         super(props);
+        console.log('this props albums', this.props);
         this.compact = this.props.compact || false;
         this.albums = this.props.albums.reduce(
             (acc: Array<TopAlbum>, album) => {
@@ -27,6 +27,7 @@ export class TopAlbums<TAlbum extends IAlbum = IAlbum> extends Component<
             },
             []
         );
+        console.log('rendered albums', this.albums);
     }
 
     render() {

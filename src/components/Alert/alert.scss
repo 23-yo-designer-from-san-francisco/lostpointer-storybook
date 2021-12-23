@@ -1,12 +1,12 @@
 .alert {
   position: absolute;
+  margin: 0 auto;
   font-family: Montserrat, sans-serif;
   font-weight: 700;
   color: var(--main-font-color);
   padding: 10px;
   border-radius: 50px;
   background-color: var(--alert-bg-color);
-  margin-left: -100px;
   width: 195px;
   text-align: center;
 }

@@ -1,0 +1,14 @@
+.listen-now__top-albums {
+  display: flex;
+  justify-content: space-between;
+  min-width: min-content;
+  overflow-x: auto;
+  height: 385px;
+
+  &__compact {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 0 0 15px;
+  }
+}
