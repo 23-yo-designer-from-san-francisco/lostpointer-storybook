@@ -16,3 +16,5 @@ export { TopAlbums } from 'components/TopAlbums/topalbums';
 export { TopAlbum } from 'components/TopAlbum/topalbum';
 export { Album } from 'components/Album/album';
 export { SuggestedAlbums } from 'components/SuggestedAlbums/suggestedAlbums';
+
+export { Avatar } from 'components/Avatar/avatar';
