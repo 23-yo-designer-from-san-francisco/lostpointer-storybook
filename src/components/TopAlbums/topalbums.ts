@@ -18,7 +18,6 @@ export class TopAlbums<TAlbum extends IAlbum = IAlbum> extends Component<
 
     constructor(props) {
         super(props);
-        console.log('this props albums', this.props);
         this.compact = this.props.compact || false;
         this.albums = this.props.albums.reduce(
             (acc: Array<TopAlbum>, album) => {
@@ -27,7 +26,6 @@ export class TopAlbums<TAlbum extends IAlbum = IAlbum> extends Component<
             },
             []
         );
-        console.log('rendered albums', this.albums);
     }
 
     render() {
