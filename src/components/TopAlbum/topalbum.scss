@@ -23,7 +23,7 @@
     flex-direction: column;
     background: linear-gradient(180deg, rgba(30 30 30 / 50%) 0%, rgba(30 30 30 / 80%) 100%);
     font-family: Montserrat, sans-serif;
-    color: white;
+    color: var(--main-font-color);
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
@@ -56,7 +56,7 @@
     margin-left: 10px;
 
     svg {
-      background: white;
+      background: var(--button-color);
       border-radius: 40px;
     }
   }
@@ -65,7 +65,7 @@
     height: 40px;
     width: 40px;
     cursor: pointer;
-    color: white;
+    color: var(--button-color);
     font-size: 20px;
     margin: 0 10px;
     background: var(--accent-color);

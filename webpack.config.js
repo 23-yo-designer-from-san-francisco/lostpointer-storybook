@@ -20,6 +20,7 @@ module.exports = {
         alias: {
             components: path.join(src, 'components'),
             forms: path.join(src, 'forms'),
+            tokens: path.join(__dirname, 'tokens'),
         },
         extensions: ['.js', '.ts'],
     },

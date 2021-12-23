@@ -1,0 +1,13 @@
+node_modules/
+.DS_Store*
+.idea/
+dist/
+src/
+.storybook/
+types/
+.prettierrc.json
+tsconfig.json
+webpack.config.js
+.stylelintrс
+.eslintrc.js
+.nvmrc

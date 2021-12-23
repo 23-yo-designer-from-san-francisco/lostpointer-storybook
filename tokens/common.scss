@@ -1,0 +1,28 @@
+:root {
+  --main-bg-color: #191919;
+  --alert-bg-color: #2ecc71;
+  --main-font-color: white;
+  --button-color: white;
+  --track-border: 1px rgb(65 66 63) solid;
+  --background-color: #212121;
+  --font: 'Montserrat', sans-serif;
+  --artist-color: #b3b3b3;
+  --icon-size: 20px;
+  --chevron-hide-size: 25px;
+  --player-hide-duration: 350ms;
+  --mobile-track-font-size: 30px;
+  --mobile-track-font-weight: 600;
+  --artist-font-size: 20px;
+  --mobile-footer-icon-size: 25px;
+  --mobile-player-seekbar-height: 4px;
+  --mobile-player-seekbar-radius: 2px;
+  --mobile-player-artwork-max-width: 435px;
+  --artwork-accent-color: var(--accent-color);
+  --seekbar-current: 0;
+  --player-seekbar-background: gray;
+  --seekbar-transition: 0.5s;
+  --accent-color: #cd0138;
+  --link-color: white;
+  --mobile-footer-height: 100px;
+  --ui-border-radius: 10px;
+}

@@ -12,7 +12,8 @@
     "paths": {
       "src/*": ["src/*"],
       "components/*" : ["src/components/*"],
-      "forms/*": ["src/forms/*"]
+      "forms/*": ["src/forms/*"],
+      "tokens/*": ["tokens/*"]
     }
   },
 

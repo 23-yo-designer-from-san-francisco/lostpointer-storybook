@@ -1,3 +1,5 @@
+import 'tokens/common.scss';
+
 export { Alert } from 'components/Alert/alert';
 export { InputComponent } from 'forms/Input/input';
 
