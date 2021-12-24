@@ -1,6 +1,6 @@
 {
   "name": "lostpointer-uikit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LostPointer Music UIKit",
   "main": "dist/uikit.js",
   "scripts": {
