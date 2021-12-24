@@ -122,6 +122,8 @@
       display: flex;
       width: 50%;
       justify-content: center;
+      overflow-y: scroll;
+      height: 100vh;
     }
   }
 }
